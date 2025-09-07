@@ -1,0 +1,185 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 1100px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+/* Left Panel */
+.left-panel {
+  background-color: #1e293b;
+  color: #ffffff;
+  width: 40%;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-panel h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.left-panel p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+/* Input Group */
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border: 1px solid #475569;
+  background-color: #334155;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.5);
+}
+/* Eye Icon 
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #94a3b8;
+  font-size: 18px;
+  }
+*/
+
+/* Buttons */
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #3b82f6;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #2563eb;
+  transform: scale(1.03);
+}
+
+/* Links */
+.forgot-password {
+  color: #60a5fa;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.signup-link {
+  margin-top: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #60a5fa;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Right Panel */
+.right-panel {
+  width: 60%;
+  padding: 40px;
+  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.right-panel h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.right-panel p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.white-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  transition: transform 0.3s;
+}
+
+.white-box:hover {
+  transform: translateY(-5px);
+}
+
+#study2 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
