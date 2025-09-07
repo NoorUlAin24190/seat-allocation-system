@@ -22,13 +22,9 @@ A simple web-based project designed to help **administrators** allocate classroo
 ---
 
 ## 📸 Screenshots
-(Add screenshots of your homepage, admin panel, and seat allocation table here)  
-
-Example:  
-![Homepage Screenshot](Pictures/Screenshot/homepage.png)  
+<img width="1919" height="928" alt="homepage" src="https://github.com/user-attachments/assets/80bb929f-3f4d-4c28-a74c-3ecfbe3b68ee" />
 
 ---
-
 ## ⚙️ Installation Guide
 1. Clone this repository  
    ```bash
